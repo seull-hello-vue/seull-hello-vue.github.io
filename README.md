@@ -1,29 +1,27 @@
-# seull-hello-vue.github.io
 
-This template should help get you started developing with Vue 3 in Vite.
+# 타이틀
 
-## Recommended IDE Setup
+<img src="https://github.com/seull-hello-vue/seull-hello-vue.github.io/assets/148920003/04966f88-bf1e-4758-8e39-e5b50de88568" width=300>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
+# 개발환경 (How to contribute)
+<img src="https://github.com/Seull1/seull1.github.io/assets/148920003/35110670-ba87-46b2-ab76-74fee6341fb1" width=300>
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# 배포방법
+<img src="https://github.com/Seull1/seull1.github.io/assets/148920003/7f70b3ea-a821-4fc8-8f76-5fc4d2f9831d" width=300>
 
-## Project Setup
+### STG dev ( seull1.web.app )
+* Branch : Branch of PR
+* TRIGGER : manual firebase cmd*
+* URL : https://vue1-1ce56.web.app/
 
-```sh
-npm install
-```
+### STG prd ( seull-hello-vue.github.io )
+* Branch : 0.1.0
+* TRIGGER : Auto Github Action
+* URL : seull-hello-vue.github.io
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+# 감사 - 디자인템플릿 공여자에게
+< ![Hey\! Thanks\!](https://media.giphy.com/media/ip6n2oVNZBHiM/giphy.gif)>
