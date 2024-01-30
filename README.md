@@ -10,7 +10,7 @@
 # 배포방법
 <img src="https://github.com/Seull1/seull1.github.io/assets/148920003/7f70b3ea-a821-4fc8-8f76-5fc4d2f9831d" width=300>
 
-### STG dev ( seull1.web.app )
+### STG dev ( vue1-1ce56.web.app )
 * Branch : Branch of PR
 * TRIGGER : manual firebase cmd*
 * URL : https://vue1-1ce56.web.app/
