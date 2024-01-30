@@ -1,5 +1,6 @@
 <script setup>
 
+
 import category from "@/assets/category.json"
 
 const categories = category
