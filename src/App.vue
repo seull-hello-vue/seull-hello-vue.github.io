@@ -7,6 +7,7 @@ const categories = category
 
 <template>
 
+
 <h1 v-for="item in categories">
   name : {{ item.name }}  
   code : {{ item.code }}
