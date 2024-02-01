@@ -1,22 +1,18 @@
 <script setup>
+import { reactive , computed , ref} from 'vue'
 
-import { ref } from 'vue'
-import category from "@/assets/gamelist.json"
+const author = ref({
+name : 'John Doe',
+books: [1,2,3]
+})
 
-const categories = ref(category)
-const awesome = ref(true)
-
-
+const check = computed(() => { return author.value.books.length > 2 ? 'Yes' : 'No'})
 </script>
 
 <template>
+<span></span>
 
-<h1>나의 플레이타임 100분 이상 출력하기!</h1>
-<br><br><br>
-<ul v-for="item in categories">
-<li v-if="item.playtime_forever > 100">
-게임이름 : {{ item.name }} <br>
-나의 플레이 시간 : {{item.playtime_forever}} 분<br>
-</li>
-</ul>
+<span>{{ author.books.length > 2 ? 'Yes' : 'No' }}</span>
+<div>computed </div>
+<div>{{ check }}</div>
 </template>
