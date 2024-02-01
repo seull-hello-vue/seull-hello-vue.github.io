@@ -1,11 +1,20 @@
 <script setup>
 import { ref } from 'vue'
-import Child from './components/Child.vue'
 
-const pocketMoney = ref('부모 컴포넌트로붙터 <🎁💸>을 전달받았어요!')
+const show = ref(true)
+const list = ref([1,2,3])
 
 </script>
 
 <template>
-  <Child :pocketMoney="pocketMoney" />
+<button @click="show = !show">List 렌더링 ON/OFF </button>
+<button @click="list.push(list.length + 1)">List 추가 </button>
+<button @click="list.pop()">List 제거 </button>
+<button @click="list.reverse()">List 뒤집기 </button>
+
+<ul v-if="show && list.length">
+  <li v-for="item of list">{{ item }}</li>
+</ul>
+<p v-else-if="list.length">List is not empty, but hidden.</p>
+<p v-else>List is empty.</p>
 </template>
